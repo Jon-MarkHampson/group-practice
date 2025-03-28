@@ -23,13 +23,3 @@ def add_domain_to_username(username):
         return username + "email.com"
     return username
 
-
-def display_email_address(email):
-    """
-    Displays the email address.
-
-    Example:
-    display_email_address("user123@email.com")
-    Output: Email Address: user123@email.com
-    """
-    print(f"Email Address: {email}")
